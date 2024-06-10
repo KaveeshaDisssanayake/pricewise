@@ -1,4 +1,4 @@
-![image](https://github.com/KaveeshaDisssanayake/pricewise/assets/90174106/71a2a808-5964-45fa-8fea-a0cce881c123)
+
 
 
 🚀 Excited to introduce my latest project: PriceWise! 🎉
