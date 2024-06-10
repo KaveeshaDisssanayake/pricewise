@@ -1,5 +1,7 @@
 import { PriceHistoryItem, Product } from "@/types/index";
 
+
+
 const Notification = {
   WELCOME: 'WELCOME',
   CHANGE_OF_STOCK: 'CHANGE_OF_STOCK',
@@ -91,7 +93,7 @@ export function getAveragePrice(priceList: PriceHistoryItem[]) {
   return averagePrice;
 }
 
-{/*export const getEmailNotifType = (
+export const getEmailNotifType = (
   scrapedProduct: Product,
   currentProduct: Product
 ) => {
@@ -108,7 +110,7 @@ export function getAveragePrice(priceList: PriceHistoryItem[]) {
   }
 
   return null;
-}; */}
+}; 
 
 export const formatNumber = (num: number = 0) => {
   return num.toLocaleString(undefined, {
